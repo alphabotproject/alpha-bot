@@ -1,0 +1,5 @@
+This is to boot up the bot
+You can do it in 2 commands:
+cd c:\users\brandon\desktop\discord alpha bot 1
+and 
+node bot.js
