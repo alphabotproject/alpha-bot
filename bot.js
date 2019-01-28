@@ -3,6 +3,10 @@ const client = new Discord.Client();
 
 client.once('ready', () => {
 	console.log('Im ready my leader');
+	client.music = require("discord.js-musicbot-addon");
+
+client.music.start(client, {
+youtubeKey: "AIzaSyB3yMFEIoUiCDy9hqUDhF6evukIOetV6Ms"
 });
 client.on('message', message => {
 	if (message.content === 'help') {
